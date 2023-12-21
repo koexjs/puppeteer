@@ -1,5 +1,5 @@
 {
-  "name": "@koexjs/puppeteer",
+  "name": "@koex/puppeteer",
   "version": "0.0.1",
   "description": "puppeteer as a service",
   "repository": "https://github.com/koexjs/puppeteer",
