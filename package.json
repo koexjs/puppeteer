@@ -1,6 +1,6 @@
 {
   "name": "@koex/puppeteer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "puppeteer as a service",
   "repository": "https://github.com/koexjs/puppeteer",
   "license": "MIT",
