@@ -10,6 +10,8 @@ COPY yarn.lock .
 
 RUN yarn
 
+COPY . .
+
 RUN yarn build
 
 FROM whatwewant/node:v20-2
@@ -25,5 +27,7 @@ COPY package.json .
 COPY yarn.lock .
 
 RUN yarn --production
+
+COPY . .
 
 CMD yarn prod
