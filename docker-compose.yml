@@ -1,7 +1,11 @@
 services:
-  app:
-    build: .
+  puppeteer:
+    # build: .
+    image: whatwewant/puppeteer:latest
     ports:
       - 18080:8080
     environment:
-      BROWSER_WS_ENDPOINT: wss://chrome.browserless.io
+      BROWSER_WS_ENDPOINT: ws://browserless:3000
+
+  browserless:
+    image: whatwewant/browserless-chrome:v1-0
