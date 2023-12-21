@@ -1,16 +1,16 @@
 {
   "name": "@koexjs/puppeteer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "puppeteer as a service",
-  "main": "lib/index.js",
   "repository": "https://github.com/koexjs/puppeteer",
+  "license": "MIT",
   "author": "Zero <tobewhatwewant@gmail.com>",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.prod.json",
     "dev": "tsc-watch -p tsconfig.json --onSuccess \"node lib/index.js\"",
     "prod": "NODE_ENV=production node lib/index.js"
   },
-  "license": "MIT",
   "dependencies": {
     "@koex/core": "^1.0.2",
     "@znode/dotenv": "^0.0.10",
