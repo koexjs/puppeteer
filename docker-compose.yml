@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - 18080:8080
+    environment:
+      BROWSER_WS_ENDPOINT: wss://chrome.browserless.io
