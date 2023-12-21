@@ -27,11 +27,7 @@ curl -X POST \
   http://localhost:8887/pdf \
   -H 'Content-Type: application/json' \
   -d '{
-    "url": "https://www.baidu.com",
-    "options": {
-      "format": "A4",
-      "landscape": true
-    }
+    "url": "https://www.baidu.com"
   }'
 ```
 
